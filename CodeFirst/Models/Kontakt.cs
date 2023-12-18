@@ -10,6 +10,5 @@ namespace CodeFirst.Models
         [Required(ErrorMessage="Wymagane podanie nazwiska")]
         public string Nazwisko { get; set; }
         public string Email { get; set; }
-        public string NowePole { get; set; }
     }
 }

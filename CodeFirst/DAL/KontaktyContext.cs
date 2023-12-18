@@ -9,6 +9,5 @@ namespace CodeFirst.DAL
         {
         }
         public DbSet<Kontakt> Kontakty { get; set; }
-        public DbSet<Pytanie> Pytania { get; set; }
     }
 }
